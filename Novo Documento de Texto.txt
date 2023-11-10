@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    
+    <html lang="pt-br">
+        
+        <head>
+            
+            <meta charset="UTF-8">
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+            <title>Document</title>
+
+            <link rel="stylesheet" href="codigo.css">
+        </head>
+        
+        <body>
+
+            <header>
+
+                <div class="line_green"> 
+                    
+                </div>
+
+                <div class="esquerda">
+
+                    <div class="imagem">
+                        <img src="c:\Users\Usuário\Downloads\logo (3).png">
+                    </div>
+                
+                </div>
+
+                <div class="direita">
+                    <input type = "text" placeholder="Search">
+                </div>
+
+            </header>
+            
+        </body>
+    
+    </html>
+
+body
+{
+    margin: 0px;
+}
+
+header
+{
+    height: 103px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.line_green
+{
+    height: 10px;
+    background-color: #117050;
+}
+
+.esquerda
+{
+    padding-left: 20px;
+}
+
+.imagem
+{
+    display: flex;
+    align-items: center;
+}
+
+img
+{
+    width: 64px;
+    height: 64px;
+}
+
+.direita
+{
+    flex: 1;
+}
